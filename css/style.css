@@ -1,0 +1,633 @@
+/* Comment Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.conatiner{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* Comment Css End */
+
+/* Navber Part Start  */
+#navbarPart{
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbarMenu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.navbarItem ul li{
+    display: inline-block;
+}
+.navbarItem ul li a{
+    color: #fff;
+    padding: 0 10px;
+    margin: 5px;
+    font-family: "Source Sans 3", serif;
+    font-size: 18px;
+}
+
+.navbarItem ul li a:hover{
+    color: orange;
+}
+.btn{
+    outline: none;
+    background: orange;
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 17px;
+    margin-right: 10px;
+    transition: 2s;
+}
+.btn:hover{
+    background: #ffff;
+    color: orange;
+}
+.fa-solid{
+    color: #fff;
+    font-size: 20px;
+}
+/* Navbar Part End */
+
+/* Header Part Start */
+#headerPart{
+    background: url(../images/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.headerOverly{
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 250px;
+    padding-bottom: 200px;
+    
+}
+.headerText{
+    text-align: center;
+    color: white;
+}
+.headerText h1{
+    font-size: 60px;
+    line-height: 75px;
+    font-family: "Playfair Display", serif;
+}
+.headerText p{
+    font-size: 21px;
+    padding: 20px 280px;
+    line-height: 28px;
+}
+.headerTime{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.headerDay{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFF;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+}
+.headerDay h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.headerDay h4{
+    margin-top: 10px;
+    font-size: 20px; 
+    font-family: "Source Sans 3", serif;
+}
+
+/* Header Part End */
+
+/* Info Part Start */
+#infoPart{
+    display: flex;
+}
+.infoImage{
+    width: 50%;
+}
+.infoImage img{
+    width: 100%;
+}
+.infoText{
+    width: 50%;
+    margin: 100px 20px 20px 35px;
+}
+.infoText h3{
+    font-size: 33px;
+    line-height: 30px;
+}
+.infoText .infoOne{
+    font-size: 22px;
+    padding: 20px 0;
+    color: #444;
+
+}
+.infoText .infoTow{
+    font-size: 18px;
+    color: #444;
+}
+/* Info Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    background: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannerOverly{
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bannerText{
+    text-align: center;
+    color: #FFF;
+}
+.bannerText h1{
+    font-size: 33px;
+    padding: 0 240px;
+    line-height: 40px;
+}
+.bannerText p{
+    font-size: 22px;
+    padding: 20px 300px;
+    color: #999;
+}
+.bannerItem{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.bannerMenus{
+    background: #ffff;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    transition: 2s;
+}
+.bannerMenus i{
+    font-size: 35px;
+    color: black;
+    margin-top: 40px;
+}
+.bannerMenus i:hover{
+    color: #fff;
+}
+.bannerMenus h4{
+    font-family: "Source Sans 3", serif;
+    padding: 15px 0; 
+}
+.bannerMenus:hover{
+    background: rgb(211, 211, 101);
+    color: #fff;
+}
+.bannerMenu{
+    background: #ffff;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    text-align: center;
+    transition: 2s;
+}
+.bannerMenu i{
+    font-size: 35px;
+    color: black;
+    margin-top: 40px;
+}
+.bannerMenu i:hover{
+    color: #fff;
+}
+.bannerMenu h4{
+    font-family: "Source Sans 3", serif;
+    padding: 15px 0;
+}
+.bannerMenu:hover{
+    background: rgb(211, 211, 101);
+    color: #fff;
+}
+
+/* Banner Part End */
+
+/* About Part Start */
+
+.aboutHader{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.aboutHader h1{
+    font-size: 40px;
+}
+.aboutHader img{
+    width: 200px;
+}
+.aboutHader p{
+    font-size: 22px;
+    padding: 10px 320px;
+    color: #444; 
+}
+
+
+.aboutOne{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.aboutText{
+    width: 50%;
+    margin-top: 120px;
+}
+.aboutText h2{
+    font-size: 30px;
+    padding-left : 40px;
+}
+.aboutText p{
+    font-size: 18px;
+    color: #555;
+    padding: 0 70px 0 40px;
+}
+.aboutImage{
+    width: 50%;
+}
+.aboutImage img{
+    width: 80%;
+    height: 400px;
+   padding: 30px 0 0 10px;
+   
+}
+.aboutImages{
+    width: 50%;
+}
+.aboutImages img{
+    width: 80%;
+    height: 400px;
+    padding-left: 100px;
+}
+.aboutPosition{
+    width: 155px;
+    height: 137px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 53%;
+   transform: translate(-50%, -50%);
+}
+.aboutPositions{
+    background: #e4b855;
+    position: absolute;
+    padding: 42px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.aboutPositions h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+/* About Part End */
+
+
+/* Overlay Part Start */
+.ovetlyText{
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+.ovetlyText h1{
+    font-size: 33px;
+}
+.ovetlyText img{
+    width: 200px;
+}
+.ovetlyText p{
+    font-size: 22px;
+    padding: 10px 320px;
+    color: #444;
+}
+
+.overlyFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.overlyItem{
+    position: relative;
+    width: 48%;
+}
+.overlyItem img{
+    width: 100%;
+    height: 320px;
+}
+.overlyImage{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    height: 190px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.overlyImage h1{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0 0 30px;
+}
+
+.overlyIcon{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+.overlyIcon p{
+    font-size: 25px;
+}
+.overlyIcon p a{
+    font-size: 20px;
+    color: #e4b855;
+}
+.overlyIcon p a:hover{
+    color: #fff;
+}
+.overlyIcon h6{
+    font-size: 20px;
+}
+.overlyIcon i{
+    font-size: 30px;
+}
+.overlyIcon i:hover{
+    color: #e4b855;
+}
+.overPara{
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 250px 0 30px;
+}
+.button{
+    background: none;
+    color: #e4b855;
+    cursor: pointer;
+    padding: 20px 30px 10px;
+    border: none;
+}
+.button i{
+    font-size: 13px;
+    margin-top: 2px;
+}
+.button:hover{
+    color: #fff;
+}
+
+/* Overly part End */
+
+
+/* News Part Start */
+.newsHeader{
+    text-align: center;
+    padding: 120px 0 50px 0;
+}
+.newsHeader h1{
+    font-size: 33px;
+}
+.newsHeader img{
+    width: 200px;
+}
+.newsHeader p{
+    font-size: 22px;
+    padding: 10px 320px;
+    color: #444;
+}
+.newsMenu{
+    display: flex;
+}
+.newsImage{
+    width: 50%;
+}
+.newsImage img{
+    padding: 0 20px;
+}
+.newsText{
+    padding: 120px 20px 20px 30px ;
+}
+.newsText h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.newsText p{
+    color: #444;
+    font-size: 17px;
+}
+.buttons{
+    background: none;
+    color: #e4b855;
+    cursor: pointer;
+    padding: 20px 30px 10px;
+    border: none;
+}
+.buttons i{
+    font-size: 13px;
+    margin-top: 2px;
+    color: #e4b855;
+}
+.buttons:hover{
+    color: #000;
+}
+.newsIcon{
+    display: flex;
+    padding: 10px;
+}
+.newsIcon i{
+    color: #e4b855;
+
+    margin: 0px 20px;
+}
+.newsIcon p a{
+    color: #e4b855;
+}
+/* News Part End */
+
+/* Salider Part Start */
+#saliderPart{
+    background: url(../images/events-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+    background-attachment: fixed;
+}
+.saliderOverly{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 150px;
+}
+.saliderText{
+    border: 2px solid#fff;
+}
+.saliderText i{
+   padding: 20px 50%;
+    color: #e4b855;
+}
+.saliderText h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 110px;
+    line-height: 40px;
+    font-family: "Playfair Display", serif;
+}
+.saliderText p{
+    font-size: 23px;
+    color: #e4b855;
+    padding: 20px 350px;
+}
+/* Salider Part End */
+
+/* Upcoming Part Start */
+.upcomingHeader{
+    text-align: center;
+    padding: 120px 0 50px 0;
+}
+.upcomingHeader h1{
+    font-size: 33px;
+}
+.upcomingHeader img{
+    width: 200px;
+}
+.upcomingHeader p{
+    font-size: 22px;
+    padding: 10px 320px;
+    color: #444;
+}
+.upcomingImages{
+display: flex;
+justify-content: space-between;
+}
+.upcomingMenu{
+    width: 32%;
+    position: relative;
+}
+.upcomingMenu img{
+    width: 100%;
+}
+.upcomingDay{
+    border: 2px solid #444;
+    background: #000;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+.upcomingDay h3{
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+.upcomingDay h6{
+    font-size: 20px;
+    font-family: "Source Sans 3", serif;
+}
+.upcomingHours{
+    border: 2px solid #444;
+    background: #000;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+.upcomingHours h3{
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+.upcomingHours h6{
+    font-size: 19px;
+    font-family: "Source Sans 3", serif;
+}
+.upcomingMin{
+    border: 2px solid #444;
+    background: #000;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 210px;
+    top: 50px;
+}
+.upcomingMin h3{
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+.upcomingMin h6{
+    font-size: 20px;
+    font-family: "Source Sans 3", serif;
+}
+.upcomingSec{
+    border: 2px solid #444;
+    background: #000;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 310px;
+    top: 50px;
+}
+.upcomingSec h3{
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+.upcomingSec h6{
+    font-size: 20px;
+    font-family: "Source Sans 3", serif;
+}
+.upcomingOverly{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px 10px 20px;
+}
+.upcomingText p{
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 20px;
+    line-height: 20px;
+}
+.upcomingText h1{
+    color: #fff;
+}
+/* Upcoming Part End */
+
+
